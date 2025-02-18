@@ -1,0 +1,220 @@
+        @media only screen and (min-width:200px) and (max-width:575px) {
+            .leptopNav {
+                display: none;
+            }
+            .mobileNav {
+                display: block;
+            }
+            .header-mid-left-search {
+                display: none;
+            }
+            .header-mid-left-icon>a>i {
+                font-size: 28px;
+            }
+            .header-mid>i {
+                display: block;
+                font-size: 20px;
+            }
+            #home {
+                font-size: 14px;
+                border-radius: 50%;
+            }
+            .header-mid-right>nav>ul {
+                align-items: start;
+            }
+            .header-mid-right>nav>ul {
+                padding: 0px 10px;
+                flex-direction: column;
+                gap: 20px;
+                text-align: left;
+                border: 1px solid red;
+            }
+            .header-mid-right {
+                position: fixed;
+                top: 0px;
+                width: 80%;
+                height: 100vh;
+                background-color: black;
+                left: -100%;
+                transition: 1s;
+            }
+            .header-mid-right>nav>ul>li {
+                padding: 0px 8px;
+            }
+            .tabMobIcon>button {
+                display: block;
+                background-color: white;
+                color: black;
+                padding: 10px 20px;
+                font-size: 12px;
+                font-weight: 700;
+                border-radius: 150px;
+                cursor: pointer;
+            }
+            .tabMobIcon {
+                display: block;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                /* justify-content: space-between; */
+            }
+            .showNavMenu {
+                left: 0%;
+            }
+            .banner {
+                flex-direction: column;
+            }
+            .banner-mid-library {
+                display: none;
+            }
+            .banner-mid-position {
+                display: none;
+            }
+            .banner-mid-artist-items-content {
+                flex-basis: 47%;
+            }
+            .banner-mid-artist-content-heaidng>a {
+                font-size: 15px;
+                font-weight: 700;
+            }
+            .banner-mid-artist-content-heaidng {
+                margin: 20px 0px;
+            }
+            .banner-mid-artist-content-heaidng>span {
+                color: #B3B3B3;
+                font-size: 12px;
+                cursor: pointer;
+            }
+            .popular-mid-items-content {
+                flex-basis: 46%;
+                margin: 2%;
+            }
+            .popular-radio-mid-items-content {
+                flex-basis: 46%;
+                margin: 2%;
+            }
+            .featured-chart-mid-items-content {
+                flex-basis: 46%;
+                margin: 2%;
+            }
+            .indias-best-items-content {
+                flex-basis: 46%;
+                margin: 2%;
+            }
+            .footer-mid {
+                flex-direction: column;
+            }
+            .footer-mid-link {
+                margin: 6%;
+                /* border: 1px solid blue; */
+            }
+            .signUp-free {
+                display: none;
+            }
+            /* ----------------LOGIN SECTION--------------- */
+            input[type="text"] {
+                width: 300px;
+            }
+            .loginInfo>button {
+                width: 272px;
+            }
+            .mainContinue>button {
+                padding: 10px 25px;
+            }
+            /* -------------------SIGN UP SECTION----------------------- */
+            .signup-heading>h1 {
+                font-size: 30px;
+            }
+            .borderLeft-Or {
+                flex-basis: 30%;
+            }
+            .borderRight-Or {
+                flex-basis: 30%;
+            }
+        }
+        
+        @media only screen and (min-width:576px) and (max-width:992px) {
+            /* header {
+                display: none;
+            } */
+            .leptopNav {
+                display: none;
+            }
+            .mobileNav {
+                display: block;
+            }
+            .header-mid-left-search {
+                display: none;
+            }
+            .header-mid>i {
+                display: block;
+            }
+            .header-mid-right>nav>ul {
+                align-items: start;
+            }
+            .header-mid-right>nav>ul {
+                flex-direction: column;
+                gap: 20px;
+                text-align: left;
+                border: 1px solid red;
+            }
+            .header-mid-right {
+                position: fixed;
+                top: 0px;
+                width: 80%;
+                height: 100vh;
+                background-color: black;
+                left: -100%;
+                transition: 1s;
+            }
+            .header-mid-right>nav>ul>li {
+                padding: 0px 8px;
+            }
+            .showNavMenu {
+                left: 0%;
+            }
+            .tabMobIcon {
+                display: block;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 20px;
+            }
+            .tabMobIcon>button {
+                background-color: white;
+                color: black;
+                padding: 15px 30px;
+                font-size: 20px;
+                font-weight: 700;
+                border-radius: 150px;
+                cursor: pointer;
+            }
+            .tabMobIcon>i {
+                font-size: 25px;
+            }
+            .banner-mid-library {
+                display: none;
+            }
+            .banner {
+                flex-direction: column;
+            }
+            .banner-mid-artist-items-content {
+                flex-basis: 14.50%;
+            }
+            .banner-mid-artist-items-content>figure>img {
+                width: 93%;
+                height: 111px;
+            }
+            .banner-mid-position {
+                display: none;
+            }
+            .popular-mid-items-content {
+                flex-basis: 14.50%;
+            }
+            .banner-mid-artist-item-content-sub-hading>a {
+                font-size: 12px;
+            }
+            .signUp-free {
+                display: none;
+            }
+        }
