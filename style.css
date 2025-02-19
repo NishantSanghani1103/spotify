@@ -177,6 +177,15 @@ header {
     border-radius: 50%;
 }
 
+.header-mid-left-search {
+    position: relative;
+}
+
+.header-mid-left-search>input {
+    font-size: 16px;
+    padding: 20px 50px;
+}
+
 .header-mid-left-search>input[type="text"] {
     background-color: #1F1F1F;
     width: 474px;
@@ -186,8 +195,15 @@ header {
 }
 
 .header-mid-left-search>input::placeholder {
+    color: #B3B3B3;
+}
+
+.megnifierPostion-Absolute {
+    color: #B3B3B3;
     font-size: 20px;
-    padding: 20px 20px;
+    position: absolute;
+    top: 12px;
+    left: 16px;
 }
 
 .header-mid-right {
@@ -785,6 +801,7 @@ footer {
     /* border: 1px solid red; */
     font-weight: 600;
     text-align: left;
+    /* position: relative; */
 }
 
 .loginInfo>p {
@@ -806,6 +823,19 @@ input::placeholder {
     margin: 10px 0px;
     padding: 15px 10px;
     border-radius: 2px;
+}
+
+.eyePositionRelative {
+    position: relative;
+}
+
+.eyePosition {
+    position: absolute;
+    top: 20px;
+    color: #B3B3B3;
+    font-size: 23px;
+    right: 0px;
+    font-weight: normal;
 }
 
 .loginInfo>button {
