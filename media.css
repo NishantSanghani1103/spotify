@@ -144,6 +144,7 @@
                 display: none;
             }
             .mobileNav {
+                margin: 80px auto;
                 display: block;
             }
             .header-mid-left-search {
@@ -159,7 +160,6 @@
                 flex-direction: column;
                 gap: 20px;
                 text-align: left;
-                border: 1px solid red;
             }
             .header-mid-right {
                 position: fixed;
@@ -169,6 +169,7 @@
                 background-color: black;
                 left: -100%;
                 transition: 1s;
+                align-items: normal;
             }
             .header-mid-right>nav>ul>li {
                 padding: 0px 8px;

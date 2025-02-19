@@ -109,6 +109,12 @@
     color: #1ed760;
 }
 
+.banner-mid-library-language>button:hover {
+    border-color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 
 /* .banner-mid-artist-item-content-sub-hading a:hover {
     text-decoration: underline;
@@ -268,7 +274,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     /* margin: 0px 10px; */
-    margin: 10px;
+    margin-bottom: 10px;
     /* border: 1px solid red; */
 }
 
@@ -276,8 +282,9 @@ header {
     flex-basis: 24%;
     background: #131313;
     border-radius: 5px;
+    margin: 0px 5px;
     /* border: 5px solid yellow; */
-    height: 100vh;
+    height: 570px;
 }
 
 .banner-mid-library-heading {
@@ -422,12 +429,55 @@ header {
     padding-right: 50px;
 }
 
+.banner-mid-library-language {
+    margin: 0px 20px;
+}
+
+.banner-mid-library-language>button {
+    color: white;
+    background-color: transparent;
+    border: 1px solid #B3B3B3;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 12px;
+}
+
 .banner-mid-artist {
     flex-basis: 75%;
     /* height: 200px; */
     background: #1a1a1a;
     border-radius: 8px;
     /* border: 5px solid yellow; */
+    height: 570px;
+    overflow-y: scroll;
+}
+
+
+/* Customize the scrollbar itself */
+
+.banner-mid-artist::-webkit-scrollbar {
+    width: 12px;
+    /* Width of the scrollbar */
+    background-color: #121212;
+    /* Background color of the scrollbar */
+}
+
+
+/* Style the draggable part of the scrollbar */
+
+.banner-mid-artist::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color of the draggable thumb */
+    /* Optional: for rounded corners */
+}
+
+
+/* Style the thumb when it's hovered */
+
+.banner-mid-artist::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Darker color when hovering */
 }
 
 .banner-mid-artist-content {
