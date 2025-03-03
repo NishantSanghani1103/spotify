@@ -121,7 +121,10 @@
             }
             /* ----------------LOGIN SECTION--------------- */
             input[type="text"] {
-                width: 300px;
+                max-width: 300px;
+            }
+            input[type="password"] {
+                max-width: 300px;
             }
             .loginInfo>button {
                 width: 272px;

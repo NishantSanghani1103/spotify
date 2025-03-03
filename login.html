@@ -44,13 +44,13 @@
 
         <div class="loginInfo">
             <p>Email or username</p>
-            <input type="text" name="" id="" class="inputForm" placeholder="Email or username">
+            <input type="text" name="" class="inputForm" placeholder="Email or username">
             <p>Password</p>
             <div class="eyePositionRelative">
 
-                <input type="text" name="" id="" class="inputForm " placeholder="Password">
+                <input type="password" name="" class="inputForm " placeholder="Password">
                 <div class="eyePosition">
-                    <i class="fa-solid fa-eye-slash"></i>
+                    <i class="fa-solid fa-eye-slash passIcon"></i>
                 </div>
             </div>
 
@@ -59,11 +59,29 @@
 
         </div>
 
-        <p class="forgotP">Don't have an account? &nbsp; <span>Sign up for Spotify</span></p>
+        <p class="forgotP">Don't have an account? &nbsp; <span><a href="signup.html">Sign up for Spotify</a></span></p>
     </div>
     <footer class="loginfooter">
         <p>This site is protected by reCAPTCHA and the Google <a href="">Privacy Policy</a>and <a href="">Terms of Service</a>apply.</p>
     </footer>
 </body>
+<script>
+    let passIcon = document.querySelector(".eyePosition");
+    let EyeIcon = document.querySelector(".passIcon");
+    let inputPassword = document.querySelector(".eyePositionRelative input")
+
+
+    passIcon.addEventListener("click", () => {
+        if (EyeIcon.classList.contains("fa-eye-slash")) {
+            inputPassword.type = "text"
+            EyeIcon.classList.remove("fa-eye-slash")
+            EyeIcon.classList.add("fa-eye")
+        } else if (EyeIcon.classList.contains("fa-eye")) {
+            inputPassword.type = "password"
+            EyeIcon.classList.remove("fa-eye")
+            EyeIcon.classList.add("fa-eye-slash")
+        }
+    })
+</script>
 
 </html>

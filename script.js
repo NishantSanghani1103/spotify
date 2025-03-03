@@ -10,3 +10,9 @@ micon.addEventListener("click", () => {
 closeIcon.addEventListener("click", () => {
     nav.classList.remove("showNavMenu");
 })
+
+let passIcon = document.querySelector(".eyePosition");
+console.log(passIcon)
+    // passIcon.addEventListener("click", () => {
+    //     alert()
+    // })
